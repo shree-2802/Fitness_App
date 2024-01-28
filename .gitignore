@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/home/divum/Desktop/html/frontend/api/package-lock.json
+/home/divum/Desktop/html/frontend/api/public
 
 # testing
 /coverage
