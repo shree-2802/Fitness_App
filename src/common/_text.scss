@@ -1,0 +1,6 @@
+@import './color';
+.text_gradient{
+    background: $font-heading;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

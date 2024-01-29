@@ -1,4 +1,5 @@
 import Navbar from "./navbar/navbar";
 import Footer from "./footer/footer";
-
-export {Navbar,Footer}
+import Search from "./search/search";
+import HeroBanner from "./hero-banner/heroBanner";
+export {Navbar,Footer,Search,HeroBanner}
