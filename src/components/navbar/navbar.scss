@@ -1,10 +1,10 @@
 @import '../../common/style';
 @import '../../common/color';
 .fitness__navbar {
-  background-color: rgba($color: $primary-color, $alpha: 0.6);
+  background-color: $secondary-background;
   padding: 3rem 4rem;
-  //   margin: 2rem;
-  color: $font-secondary;
+  margin: 2rem;
+  color: $background-color;
   position: relative;
   font-size: 18px;
   font-weight: bold;
@@ -22,7 +22,9 @@
       padding: 1.5rem;
       border-radius: 20px;
       text-align: end;
-      background-color: $primary-color;
+      background-color: $background-color;
+      color: $secondary-background;
+      box-shadow: 0 0 5px $secondary-background;
       a {
         margin: 0;
       }
@@ -34,6 +36,8 @@
   }
   div > a {
     margin-left: 4rem;
+    font-size: 1.3rem;
+    font-weight: 500;
     &:link,
     &:active,
     &:visited {
@@ -48,6 +52,7 @@
 
 @media screen and (width<700px) {
   .fitness__navbar {
+    padding: 1.4rem 4rem;
     div:nth-of-type(1) {
       display: block;
     }
