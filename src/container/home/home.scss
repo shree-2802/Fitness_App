@@ -1,6 +1,8 @@
-.fitness__home{
-    display: flex;
-    flex-direction: column;
-    gap:2rem;
-    margin:2rem;
+@import '../../common/color';
+.fitness__home {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem;
+  background-color: $secondary-background;
 }
