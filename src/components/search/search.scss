@@ -19,6 +19,7 @@
       border: 2px solid $background-color;
       margin-right: -3px;
       width: 100%;
+      color: $background-color;
     }
     input::placeholder {
       color: $background-color;
@@ -33,6 +34,7 @@
       border-radius: 0 3px 3px 0;
       border-left-width: 0px;
       background-color: rgba($color: $background-color, $alpha: 0.2);
+      cursor: pointer;
     }
   }
 }
